@@ -10,7 +10,7 @@ namespace Andraste.Payload.Generic
         }
 
         public override string FrameworkName => "Andraste Generic";
-        public override string Version => "0.1.1";
+        public override string Version => "0.1.3";
         protected override void PreWakeup()
         {
             Container.RegisterManager(new BasicFileRedirectingManager());
