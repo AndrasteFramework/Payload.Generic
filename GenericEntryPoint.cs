@@ -5,7 +5,7 @@ namespace Andraste.Payload.Generic
 {
     public class GenericEntryPoint : EntryPoint
     {
-        public GenericEntryPoint(RemoteHooking.IContext context) : base(context)
+        public GenericEntryPoint(RemoteHooking.IContext context, string profileFolder) : base(context, profileFolder)
         {
         }
 
