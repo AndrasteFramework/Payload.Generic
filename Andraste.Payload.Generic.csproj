@@ -7,9 +7,9 @@
     <OutputPath>bin\$(Configuration)\</OutputPath>
     
     <!-- NuGet -->
-    <Copyright>Copyright 2023 The AndrasteFramework Team</Copyright>
+    <Copyright>Copyright 2023-2024 The AndrasteFramework Team</Copyright>
     <PackageId>Andraste.Payload.Generic</PackageId>
-    <Version>0.2.0</Version>
+    <Version>0.2.2</Version>
     <Authors>MeFisto94</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -25,7 +25,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Andraste.EasyHook" Version="1.0.2" />
-    <PackageReference Include="Andraste.Payload" Version="0.2.0" />
+    <PackageReference Include="Andraste.Payload" Version="0.2.2" />
     <PackageReference Include="Andraste.Shared" Version="0.2.2" />
   </ItemGroup>
   <ItemGroup>
